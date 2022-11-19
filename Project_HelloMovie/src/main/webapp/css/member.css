@@ -1,0 +1,53 @@
+select,
+option	{
+	width: 200px;
+	height: 30px;
+	padding-left: 10px;
+	font-size: 18px;
+	color: #ffffff;
+	border: 1px solid #ffffff;
+	border-radius: 3px;
+	background-color: #353b43;
+}
+
+.member_detail	{
+  padding: 10px;
+}
+
+.notice_list h2 {
+  text-align: center;
+  padding: 30px 10px;
+}
+
+.member_detail table td	{
+  border: 2px #afbac4 solid;
+  padding: 10px;
+  font-size: 18px;
+  color: #ffffff;
+  width: 20%
+}
+
+.notice_wrtie form table td tr select,
+.notice_wrtie form table td tr option	{
+	background-color: transparent; 
+	color: white;
+}
+
+#notice_write_btn	{
+	border: 1px solid rgba(236, 239, 241, 0.07);
+  background: #57cbcc;
+  padding: 15px 15px;
+  width: 45%;
+  margin: 0;
+  font-size: 18px;
+}
+
+#member_detail_btn	{
+	border: 1px solid rgba(236, 239, 241, 0.07);
+  background: #57cbcc;
+  padding: 15px 15px;
+  width: 22%;
+  margin: 0;
+  font-size: 18px;
+  margin-right: 0.1%;
+}	

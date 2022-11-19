@@ -1,0 +1,44 @@
+
+
+++++++++++++++++++++++++ PROJECT HELLOMOVIE +++++++++++++++++++++++
+
+
+
+
+수정사항 
+1. index.html
+ <!-- main nav -->
+        <nav class="collapse navbar-collapse navbar-right" role="Navigation">
+        	
+            <ul id="nav" class="nav navbar-nav navigation-menu">
+				<li><a><input type="text" size="30"></a></li>
+				<li><a>
+					<button type="submit" >
+						<img src="images/search_logo.png" width="20px" height="20px"/>
+					</button></a></li>		
+					<!--영화 / 공지사항 / 로그인 수정-->
+                <li><a data-scroll href="#about">영화</a></li>
+                <li><a data-scroll href="notice.html">공지사항</a></li>
+                <li><a data-scroll href="#services">로그인</a></li>
+            </ul>
+        </nav>
+        <!-- /main nav -->
+
+2. notice.html 
+  <!-- main nav -->
+        <nav class="collapse navbar-collapse navbar-right" role="Navigation">
+        	
+            <ul id="nav" class="nav navbar-nav navigation-menu">
+				<li><a><input type="text" size="30"></a></li>
+				<li><a>
+					<button type="submit" >
+						<img src="images/search_logo.png" width="20px" height="20px"/>
+					</button></a></li>		
+                <!--영화 / 공지사항 / 로그인 수정-->
+                <li><a data-scroll href="#about">영화</a></li>
+                <li><a data-scroll href="notice.html">공지사항</a></li>
+                <li><a data-scroll href="#services">로그인</a></li>
+            </ul>
+        </nav>
+        <!-- /main nav -->
+  

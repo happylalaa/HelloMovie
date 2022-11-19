@@ -1,0 +1,58 @@
+select,
+option	{
+	width: 200px;
+	height: 30px;
+	padding-left: 10px;
+	font-size: 18px;
+	color: #ffffff;
+	border: 1px solid #ffffff;
+	border-radius: 3px;
+	background-color: #353b43;
+}
+
+.notice_list,
+.notice_write,
+.notice_detail,
+.notice_update {
+  padding: 10px;
+}
+
+.notice_list h2 {
+  text-align: center;
+  padding: 30px 10px;
+}
+
+.notice_list table tr td,
+.notice_write table td,
+.notice_detail table td,
+.notice_update table td {
+  border: 2px #afbac4 solid;
+  padding: 10px;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.notice_wrtie form table td tr select,
+.notice_wrtie form table td tr option	{
+	background-color: transparent; 
+	color: white;
+}
+
+#notice_write_btn	{
+	border: 1px solid rgba(236, 239, 241, 0.07);
+  background: #57cbcc;
+  padding: 15px 15px;
+  width: 45%;
+  margin: 0;
+  font-size: 18px;
+}
+
+#notice_detail_btn	{
+	border: 1px solid rgba(236, 239, 241, 0.07);
+  background: #57cbcc;
+  padding: 15px 15px;
+  width: 22%;
+  margin: 0;
+  font-size: 18px;
+  margin-right: 0.1%;
+}	
